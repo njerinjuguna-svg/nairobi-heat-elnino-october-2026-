@@ -29,7 +29,9 @@ During the strong 2026 El Niño, people across Nairobi kept asking: *"They said 
 |---|---|
 | ![Heat map](outputs_02/map1_heat.png) | ![Greening priority](outputs_02/map4_greening_priority.png) |
 
-More charts are in [`outputs/`](outputs) and [`outputs_02/`](outputs_02). Open `outputs_02/interactive_map.html` in a browser for a zoomable map.
+**[Open the interactive map](https://njerinjuguna-svg.github.io/nairobi-heat-elnino-october-2026-/)**: zoom in to any estate and click a 1 km square for its heat, tree cover, residents and greening priority.
+
+More charts are in [`outputs/`](outputs) and [`outputs_02/`](outputs_02).
 
 ## Notebooks
 
