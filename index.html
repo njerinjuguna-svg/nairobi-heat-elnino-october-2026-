@@ -49,8 +49,15 @@ const BOUNDS = [[-1.5107559890081, 36.62879882144226], [-0.9969675769208385, 37.
 const map = L.map("map", { zoomControl: true }).fitBounds(BOUNDS);
 const imagery = L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
   { maxZoom: 18, attribution: "Imagery © Esri" });
-const light = L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
-  { maxZoom: 19, attribution: "© OpenStreetMap contributors © CARTO" }).addTo(map);
+const ESRI = "https://server.arcgisonline.com/ArcGIS/rest/services/";
+const light = L.layerGroup([
+  L.tileLayer(ESRI + "Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}",
+    { maxZoom: 16, attribution: "Basemap © Esri, HERE, Garmin, © OpenStreetMap contributors" }),
+  L.tileLayer(ESRI + "Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}",
+    { maxZoom: 16, pane: "shadowPane" })          // place names drawn above the heat layer
+]).addTo(map);
+const streets = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+  { maxZoom: 19, attribution: "© OpenStreetMap contributors" });
 
 const heat = L.imageOverlay("outputs_02/heat_relative_30m.png", BOUNDS, { opacity: 0.75,
   attribution: "Landsat 8–9 (USGS/NASA), ESA WorldCover, WorldPop" }).addTo(map);
@@ -91,7 +98,7 @@ const allSquares = L.geoJSON(GRID, {   // invisible click layer so every square 
 priority.bringToFront();
 
 L.control.layers(
-  { "Light map": light, "Satellite": imagery },
+  { "Light map": light, "Streets (OpenStreetMap)": streets, "Satellite": imagery },
   { "Surface heat (30 m)": heat, "Greening priority": priority, "Tree cover (1 km)": trees, "3-30-300 gaps": rule },
   { collapsed: window.innerWidth < 600 }).addTo(map);
 
