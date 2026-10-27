@@ -1,0 +1,15 @@
+THE CASE: Between 1 September and 18 October 2026, Greater Nairobi's average afternoon temperature was 25.7 °C, +1.1 °C compared with the 1991–2020 normal: rank 5 of 36 years since 1991 (1 = hottest). The hottest town relative to normal was Ongata Rongai (+1.7 °C).
+
+SUSPECT 1, late rains and clear skies: 30 mm of rain fell since 1 September (86% of normal), and the short rains had not properly started by 18 October (normal onset: about 06 November). Sunshine reaching the ground was +0.1 MJ/m² per day vs normal. Across 1991–2025, sunshine explains 68% of the ups and downs in Nairobi's heat, and this season's extra sunshine accounts for roughly +0.0 °C.
+
+SUSPECT 2, El Niño: the Pacific (Niño 3.4) was +2.1 °C warmer than the tropical average (relative index, comparable to NOAA's). Across 35 years, El Niño warmth shows a clear link (hotter) with Nairobi's Sep–Oct heat (+0.54 °C per degree), and no clear link with when the rains start (+3.0 days per degree).
+
+SUSPECT 3, the Indian Ocean Dipole: the IOD was +0.7 °C. It shows a clear link (cooler) with heat and a weak hint (earlier rains) with rain onset (-11.8 days per degree).
+
+SUSPECT 4, long-term warming: +0.50 °C per decade, a clear link. On its own, it puts 2026 about +1.0 °C above the baseline average.
+
+OVERALL: of 2026's +1.1 °C, the model suggests roughly Long-term warming: +1.0 °C; El Niño (Pacific): +1.1 °C; Indian Ocean Dipole: -0.2 °C; Not explained by the model: -0.8 °C. The biggest single piece is: El Niño (Pacific).
+
+GROUND CHECK: on 16 clear days since 1 September, VIIRS satellite readings show the ground -1.4 °C vs its 2013–2025 normal.
+
+RAIN CHECK: ERA5 and CHIRPS onset dates typically differ by 14 days.

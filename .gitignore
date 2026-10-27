@@ -1,0 +1,10 @@
+# Python environment and notebook checkpoints
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Large downloaded data and rasters (re-created by running the notebooks)
+outputs/*.csv
+!outputs/table_*.csv
+outputs_02/*.gpkg
+outputs_02/*.tif

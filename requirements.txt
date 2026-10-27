@@ -1,0 +1,10 @@
+earthengine-api
+geemap
+pandas
+numpy
+matplotlib
+requests
+statsmodels
+geopandas
+jupyter
+ipykernel

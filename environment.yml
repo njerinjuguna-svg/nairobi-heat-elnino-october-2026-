@@ -1,0 +1,15 @@
+name: nairobi-heat
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - earthengine-api
+  - geemap
+  - pandas
+  - numpy
+  - matplotlib
+  - requests
+  - statsmodels
+  - geopandas
+  - jupyter
+  - ipykernel

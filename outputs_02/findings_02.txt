@@ -1,0 +1,9 @@
+WHERE IT'S HOTTEST: the hottest tenth of Greater Nairobi's populated squares run on average +3.8 °C above the area's middle value in the hot season, and the coolest tenth -7.1 °C. The hottest town area is Kitengela (+1.8 °C).
+
+GREENERY COOLS: at the same altitude and building density, each extra 10% of tree cover goes with -1.02 °C of surface heat (a clear link).
+
+REACH: built-up areas next to a 1 ha+ tree patch are about 4.0 °C cooler than those over 1 km away; the cooling fades by roughly 450 m.
+
+3-30-300: 86% of residents live in squares that miss the 30% canopy target, the 300 m access target, or both.
+
+SOLUTION: bringing the 208 highest-priority squares up to 30% tree cover could cool surfaces by about 2.6 °C for roughly 3,029,000 residents. The top priority area is around Nairobi (rest of county) (-1.26, 36.93).
